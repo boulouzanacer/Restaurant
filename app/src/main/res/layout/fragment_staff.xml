@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/linearLayout7">
+
+        <TextView
+            android:id="@+id/title_user_gestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestion serveur"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_toLeftOf="@+id/imageView6">
+
+
+
+        <TextView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="NOM :" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/user_unknown_picture"/>
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="447dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/name"
+            android:textColor="@color/concrete" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignLeft="@+id/linearLayout4"
+        android:layout_toLeftOf="@+id/imageView6">
+
+        <TextView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="PRENOM :" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/user_symbol_yellow_picture"/>
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/database"
+            android:textColor="@color/concrete"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_toLeftOf="@+id/imageView6">
+
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/take_photo"
+            style="@style/dialog_blue_button"
+            android:text="Prendre photo"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/unknown"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

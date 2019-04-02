@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutprincipal"
+    android:layout_width="130dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:clickable="true"
+    android:background="@drawable/layout_selector"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="130dp"
+    android:layout_height="120dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:clickable="false"
+        android:focusable="false">
+
+
+
+        <ImageView
+            android:id="@+id/post_menu_image"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@mipmap/cannettes_food"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside" />
+
+        <com.haozhang.lib.SlantedTextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:id="@+id/price_sub_menu"
+            android:text="900 DA"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:alpha="0.9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:slantedBackgroundColor="@color/Blue_Peter_river"
+            app:slantedLength="40dp"
+            app:slantedMode="right"
+            app:slantedText="200.00"
+            app:slantedTextColor="@color/white"
+            app:slantedTextSize="16sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:background="@color/colorYellow"
+      android:layout_alignParentBottom="true">
+
+      <TextView
+          android:id="@+id/name_sub_menu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_gravity="center"
+          android:text="Sandwiches"
+          android:textColor="#333333"
+          android:textStyle="bold"
+          android:background="@android:color/transparent"
+          android:alpha="0.8" />
+  </LinearLayout>
+
+
+</LinearLayout>

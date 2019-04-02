@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_orders_row"
+    android:layout_marginLeft="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_header_orders_items"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="Table # 5"
+            android:id="@+id/num_table" />
+
+        <TextView
+            android:id="@+id/server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohamed"
+            android:textStyle="italic"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/num_table"
+            android:layout_alignEnd="@+id/num_table" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linea_panel_one_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_orders_row"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#414141"
+                        android:layout_marginTop="3dp"
+                        android:textSize="13dp"
+                        android:textStyle="italic|bold"
+                        android:text="Commande # " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0081E2"
+                        android:layout_marginTop="3dp"
+                        android:textSize="13dp"
+                        android:textStyle="italic|bold"
+                        android:text="000181"
+                        android:id="@+id/num_bon" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#414141"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="11dp"
+                    android:textStyle="italic"
+                    android:text="28.02.2016 # 20:25"
+                    android:id="@+id/date_time" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/quantity"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:background="#bdc3c7"
+            android:layout_weight="0.7"
+            android:layout_below="@+id/num_bon"
+            android:layout_centerHorizontal="true" />
+
+        <TableLayout
+            android:id="@+id/itemtablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+        </TableLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:background="#bdc3c7"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="59 DA"
+        android:textSize="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#073680"
+        android:background="#DFF1FE"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/total" />
+    <TextView
+        android:id="@+id/aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" DA "
+        android:textSize="13dp"
+        android:background="#073680"
+        android:textColor="@color/white"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/total"
+        android:layout_toLeftOf="@+id/total" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

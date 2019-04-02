@@ -1,0 +1,1 @@
+include ':app', ':fabtransitionactivity', ':SplashLib', ':input-dialogs-library', ':sweet_alert_dialog_library'

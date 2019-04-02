@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Waiter RESTOPRO</string>
+    <string name="Login_form_label"> Login User</string>
+    <string name="Name_User">Name Of User</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username (Obligate)</string>
+    <string name="prompt_password">Password (Obligate)</string>
+    <string name="action_sign_in">Login </string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_username_password">This username or password are incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username completions."</string>
+    <string name="title_activity_main__safe_soft">Safe Soft</string>
+    <string name="hint_ip_adress">Example ... 192.168.1.2</string>
+    <string name="hint_databasepath">Example... C:/SAFESOFT</string>
+    <string name="hint_username">Default SYSDBA</string>
+    <string name="hint_password">Default masterkey</string>
+    <string name="error_connexion">Connexion not avalaible</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+
+    <!-- Strings related to reciept -->
+
+    <color name="cb_color_white">#ffffff</color>
+    <color name="cb_color_blue">#ff0099cc</color>
+    <color name="cb_color_blue_dark">#ff00719b</color>
+
+    <dimen name="cb_dimen_70">70dp</dimen>
+    <dimen name="cb_dimen_38">38dp</dimen>
+    <dimen name="cb_dimen_52">52dp</dimen>
+    <dimen name="cb_dimen_25">25dp</dimen>
+    <dimen name="cb_dimen_1">1dp</dimen>
+    <dimen name="cb_dimen_3">3dp</dimen>
+
+
+    <string name="just_now">Just Now</string>
+    <string name="message_dialog_sent_to_kitchen">Do you want to send this order to Kitchen ?.</string>
+    <string name="change">Change?. </string>
+    <string name="message_dialog_change_table">Are you sure to change this table to the table </string>
+    <string name="button_send_to_kitchen">"Send To Kitchen"</string>
+    <string name="Sending">Sending ...</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="error_incorrect_password">Password invalide</string>
+    <string name="message_sent_to_kitchen">Do you want to send this order to kitchen</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer.</string>
+    <string name="navigation_drawer_open">Ouvrrir navigation drawer.</string>
+
+    <string name="leading_activation">Connexion</string>
+    <string name="activation_wait">Connexion, patientez svp……</string>
+
+    <string name="nom_client_hint">Nom client</string>
+    <string name="revendeur_hint">Revendeur</string>
+    <string name="code_client_hint">Code client</string>
+    <string name="phone_client_hint">Num Téléphone Client</string>
+
+    <string name="error_message_code_client">Enter un code cient valide</string>
+    <string name="error_message_empty">Ce champ est obligatoire</string>
+
+    <string-array name="array_model_ticket">
+        <item>Petit model</item>
+        <item>Large model</item>
+    </string-array>
+    <string name="Change">Change</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Heins Input Dialogs</string>
+
+    <string name="calculator_0" translatable="false">0</string>
+    <string name="calculator_1" translatable="false">1</string>
+    <string name="calculator_2" translatable="false">2</string>
+    <string name="calculator_3" translatable="false">3</string>
+    <string name="calculator_4" translatable="false">4</string>
+    <string name="calculator_5" translatable="false">5</string>
+    <string name="calculator_6" translatable="false">6</string>
+    <string name="calculator_7" translatable="false">7</string>
+    <string name="calculator_8" translatable="false">8</string>
+    <string name="calculator_9" translatable="false">9</string>
+    <string name="calculator_sum" translatable="false">+</string>
+    <string name="calculator_sub" translatable="false">/</string>
+    <string name="calculator_div" translatable="false">/</string>
+    <string name="calculator_mul" translatable="false">*</string>
+    <string name="calculator_eq" translatable="false">=</string>
+    <string name="calculator_ce" translatable="false">CE</string>
+    <string name="calculator_dot" translatable="false">,</string>
+    <string name="currency" translatable="false">R$</string>
+    <string name="error" translatable="false">Error</string>
+</resources>

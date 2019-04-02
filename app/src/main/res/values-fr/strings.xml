@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Waiter RESTOPRO</string>
+    <string name="Login_form_label">Connexion d\'utilisateur</string>
+    <string name="Name_User">Nom d\'utilisateur</string>
+    <string name="action_settings">Parametes</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_field_required">Ce champ est obligatoire</string>
+    <string name="error_incorrect_password">Mot de pass incorrect</string>
+    <string name="error_invalid_password">Mot de pass incorrect</string>
+    <string name="error_invalid_username">Le nom d\'utilisateur est incorrect</string>
+    <string name="home">L\'accueil</string>
+    <string name="just_now">A l\'instant</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prompt_email">Nom d\'utilisateur (Obligatoire)</string>
+    <string name="prompt_password">Mot de Passe (Obligatoire)</string>
+    <string name="title_activity_main__safe_soft">Safe Soft</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username completions."</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="message_sent_to_kitchen">Voulez-vous envoyer cette commande vers la cuisine ?.</string>
+    <string name="YES">OUI</string>
+    <string name="NO">NON</string>
+    <string name="message_dialog_change_table">Etes-vous sûr de changer cette table vers la table </string>
+    <string name="Change">Changer?.</string>
+    <string name="change">changer?.</string>
+    <string name="button_send_to_kitchen">Envoyer Vers la cuisine</string>
+    <string name="message_dialog_sent_to_kitchen">Voulez-vous envoyer cette commande vers la cuisine ?.</string>
+    <string name="Sending">Envoi \n en cours</string>
+    <string name="error_connexion">Connexion non disponible</string>
+    <string name="error_incorrect_username_password">Le nom utilisateur ou le mot de passe est incorrect.</string>
+    <string name="hint_databasepath">Exemple ... C:/SAFESOFT</string>
+    <string name="hint_ip_adress">Exemple ... 192.168.1.2</string>
+    <string name="hint_password">Default masterkey</string>
+    <string name="hint_username">Default SYSDBA</string>
+    <string name="activation_wait">Connection, please wait ....</string>
+    <string name="code_client_hint">Client code</string>
+    <string name="error_message_code_client">"Put a valid code client "</string>
+    <string name="error_message_empty">This field is obligated</string>
+    <string name="leading_activation">Connection</string>
+    <string name="nom_client_hint">Client name</string>
+    <string name="phone_client_hint">Client phone</string>
+    <string name="revendeur_hint">Dealer</string>
+</resources>

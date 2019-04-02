@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/unknown"
+                    android:layout_marginRight="10dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Mohamed's Restaurant"/>
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/main_safe_soft_menu_width"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/switchFragmentLinearLayout"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/tablesTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:text="Tables"
+                android:onClick="switchFragment" />
+
+            <View
+                android:background="@color/gray_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/ordersTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:layout_marginRight="10dp"
+                android:text="Commandes"
+                android:onClick="switchFragment" />
+
+            <View
+                android:background="@color/gray_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/menuTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:layout_marginRight="10dp"
+                android:text="Menu"
+                android:onClick="switchFragment" />
+
+            <View
+                android:background="@color/gray_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/staffTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:layout_marginRight="10dp"
+                android:text="Vendeur"
+                android:onClick="switchFragment" />
+
+            <View
+                android:background="@color/gray_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/printingTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:layout_marginRight="10dp"
+                android:text="Impression"
+                android:onClick="switchFragment" />
+
+            <View
+                android:background="@color/gray_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:textColor="@color/gray_primary_text"
+                android:gravity="left"
+                android:id="@+id/settingTextView"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/main_safe_soft_text_size"
+                android:layout_height="@dimen/main_safe_soft_menu_item_height"
+                android:layout_marginRight="10dp"
+                android:text="Parametres"
+                android:onClick="switchFragment" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/rightFrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

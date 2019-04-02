@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_table"
+        android:orderInCategory="1"
+        android:title="Change table"
+        android:icon="@mipmap/column_one_update"
+        app:showAsAction="always" >
+    </item>
+
+    <item
+        android:id="@+id/add_supplement"
+        android:orderInCategory="2"
+        android:title="Add supplement"
+        android:icon="@mipmap/add_supplement"
+        app:showAsAction="always" >
+    </item>
+</menu>

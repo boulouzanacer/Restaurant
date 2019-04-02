@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.safesoft.uk2015.restopro.Activation.ActivityActivation">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/activation_splash"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_weight="1.05">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:paddingRight="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout6">
+
+                <com.emmasuzuki.easyform.EasyTextInputLayout
+                    android:id="@+id/code_client_check_edittext"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/code_client_hint"
+                    android:layout_marginTop="5dp"
+                    app:errorMessage="@string/error_message_code_client"
+                    android:inputType="number"
+                    app:minChars="1"
+                    app:maxChars="6"
+                    app:errorType="value"
+                    android:layout_below="@+id/linearLayout2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <com.emmasuzuki.easyform.EasyTextInputLayout
+                    android:id="@+id/nom_client_check_edittext"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nom_client_hint"
+                    android:layout_marginTop="5dp"
+                    app:errorMessage="@string/error_message_empty"
+                    app:errorType="empty"
+                    android:layout_below="@+id/code_client_check_edittext"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <com.emmasuzuki.easyform.EasyTextInputLayout
+                    android:id="@+id/phone_client_check_edittext"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phone_client_hint"
+                    app:errorMessage="@string/error_message_empty"
+                    android:inputType="number"
+                    app:errorType="empty"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/nom_client_check_edittext"
+                    android:layout_alignLeft="@+id/nom_client_check_edittext"
+                    android:layout_alignStart="@+id/nom_client_check_edittext" />
+
+
+                <com.emmasuzuki.easyform.EasyTextInputLayout
+                    android:id="@+id/revendeur_check_edittext"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/revendeur_hint"
+                    app:errorMessage="@string/error_message_empty"
+                    app:errorType="empty"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/phone_client_check_edittext"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageButton
+                    android:id="@+id/activer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/float_transparent"
+                    android:onClick="onClickButton"
+                    android:src="@mipmap/activate_icon" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

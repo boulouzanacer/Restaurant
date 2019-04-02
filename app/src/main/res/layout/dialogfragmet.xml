@@ -1,0 +1,35 @@
+<!-- fragment_edit_name.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_marginTop="10dp"
+            android:text="Description About :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Details_description"
+            android:layout_marginTop="10dp"
+            android:maxLines="3"
+            android:text="Good ;Good ; Goood ; Take It , Take it , Take It , Good ;Good ; Goood ; Take It , Take it , Take It ,Good ;Good ; Goood ; Take It , Take it , Take It "
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
